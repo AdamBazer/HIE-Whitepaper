@@ -15,22 +15,20 @@
 
 # 1 Introduction
 
-The [Integrating the Healthcare Enterprise (IHE)](http://www.ihe.net) standards profiling
-organization has developed a collection of profiles which can be
-leveraged for use by healthcare communities for the purposes of document
-sharing. One of the most significant applications of healthcare
+One of the most significant applications of healthcare
 information technology is the exchange of health information among
 disparate clinical information systems and otherwise unaffiliated care
 providers. Across the world, various communities have developed or are
 developing methods for exchanging health information among healthcare
-providers, patients, and other authorized parties. The purpose of this
-white paper is to provide an overview of the collection of IHE profiles
-which are intended to be used by communities for exchanging health
-information. The collection of profiles includes support for patient
+providers, patients, and other authorized parties.  The [Integrating the Healthcare Enterprise (IHE)](http://www.ihe.net) 
+standards profiling organization has developed a collection of integration profiles which healthcare communities can use for the purposes of document
+sharing. The purpose of this white paper is to provide an overview of these IHE integration profiles
+which are designed for communities to exchange health
+information. The collection of IHE integration profiles includes support for patient
 identification, health document location and retrieval, provider
 directories, and the protection of privacy and security. This white
-paper will show how various profiles work together to provide a
-standards based, interoperable approach to community and cross-community
+paper will show how various integration profiles work together to provide a
+standards-based, interoperable approach to community and cross-community
 health information sharing.
 
 ## 1.1 Scope
