@@ -63,10 +63,10 @@ Coordination, Patient Care Device, Pharmacy, Quality, Research and
 Public Health; Radiation Oncology, and Radiology.
 
 It is important to note that IHE integration profiles focus only on deploying a standards-based approach to interoperability deployment
-and does not attempt to solve every issue involved in exchanging health
+and do not attempt to solve every issue involved in exchanging health
 information. These technical solutions are meant to be plugged into an
 architecture that is designed and executed by the exchange communities
-themselves. IHE integration profiles are developed with a target to create standards-based community data exchange within divergent architectures that each data exchange community may to meet their individual needs.
+themselves. IHE integration profiles are developed with a target to create standards-based community data exchange within divergent architectures that each healthcare community may to meet their individual needs.
 
 ## 1.2 Intended Audience
 
@@ -87,20 +87,19 @@ communities already in production and many more are being planned. The
 size, nature and scope of communities vary widely but can be
 characterized by a number of different aspects.
 
-First, some communities are geographically focused while others are not.
+First, some communities are geographically focused, albeit regionally or nationally.
 What often comes to mind when speaking of a community is a regional
 organization that facilitates information exchange across multiple
 organizations that are relatively close in proximity. Major metropolitan
 areas tend to be the focus of these communities, but often a regional
-community encompasses several rural locales. On the opposite extreme of
-the geographic aspect of communities is the network of United States
+community encompasses several rural locales. An example of nationally-focused communities would the network of United States
 Veterans Hospitals. The VA (Veterans Administration) hospitals are
 spread across the entire map of the US and beyond, yet significant
 efforts have been spent on being able to exchange data among these
-geographically separated care centers.
+geographically-diverse care centers.
 
-A second characteristic by which to categorize communities is the
-organizational structure of the community. In some cases, the community
+A second characteristic by which to categorize health data sharing communities is the
+organizational structure of the community itself. In some cases, the community
 consists of a single hospital and several out-patient clinics that have
 a referral relationship with the hospital. In other cases, a network of
 competing hospitals, laboratories and private clinics may collaborate to
@@ -108,7 +107,7 @@ form a community.
 
 A third means by which to describe communities is the scope of the
 content shared. Some communities have very limited exchange
-functionality. For instance, a community may focus entirely on
+functionality. For example, a community may focus entirely on
 electronic lab result delivery or e-prescribing. Most communities define
 a moderate scope to their exchange activities that might include results
 delivery, electronic referrals, and perhaps some sharing of
@@ -125,17 +124,17 @@ ad-hoc arrangement to push documents from one organization to another.
 National and sub-national jurisdictions have significant effects on the
 organization and operations of a community.
 
-Despite all the variance among communities, each has the same ultimate
+Despite all the variance among communities, each one has the same ultimate
 goal: to increase the authorized exchange of patient health information
 across organizations so that clinicians can make better decisions by being more informed about the longitudinal health history. This ultimate goal provides the reason
 why the community exists, it is their affinity.
 
 Once communities are formed there is a need to exchange health documents
-across the communities as well as within them. IHE uses the concept of
+across the communities as well as within them. Integrating the Healthcare Enterprise uses the concept of
 cross-community to describe a federation of communities which use mostly
-peer-to-peer interactions for the purposes of health document sharing. A
+peer-to-peer interactions for the purposes of health document sharing. This federated architecture apporach allows interoperability and information sharing between semi-autonomous de-centrally organized information technology systems and applications. A
 community may be a single organization, like the USA Veterans
-Administration, a complex community of many organizations, or a more
+Administration, a complex community of many organizations, like Kaiser Permanente, or a more
 simple organization like a single small hospital or facility.
 Cross-community describes an environment where multiple communities, be
 they simple, small, complex or large, interact without any understanding
