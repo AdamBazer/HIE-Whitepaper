@@ -39,7 +39,7 @@ activities and a broad set of challenges, whether that exchange takes
 place among affiliated or unaffiliated care providers.  The Information Technology Infrastructure (ITI) domain of IHE, first launched in 2003, works to address the implementation of standards-based interoperability solutions to improve information sharing, workflow and patient care. The ITI domain has addressed many of these
 challenges by defining a series of integration profiles to address
 specific aspects of exchanging healthcare information. Each integration
-profile addresses part of the broad set of challenges involved in
+profile addresses a specific part of the broad set of challenges involved in
 health information exchange. These integration profiles are not designed to
 address governance and policy choices, two factors that significantly affect the success of how an integration
 profile is adapted by any particular community. While this white paper cannot
