@@ -36,7 +36,7 @@ health information sharing.
 
 Effective health information exchange involves a diverse set of
 activities and a broad set of challenges, whether that exchange takes
-place among affiliated or unaffiliated care providers.  The IHE IT Infrastructure (ITI) domain of IHE, first launched in 2003, works to address the implementation of standards-based interoperability solutions to improve information sharing, workflow and patient care. The IT
+place among affiliated or unaffiliated care providers.  The Information Technology Infrastructure (ITI) domain of IHE, first launched in 2003, works to address the implementation of standards-based interoperability solutions to improve information sharing, workflow and patient care. The IT
 Infrastructure (ITI) domain of IHE has addressed many of these
 challenges by defining a series of integration profiles to address
 specific aspects of exchanging healthcare information. Each integration
