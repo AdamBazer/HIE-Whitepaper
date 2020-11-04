@@ -23,7 +23,7 @@ developing methods for exchanging health information among healthcare
 providers, patients, and other authorized parties.  The [Integrating the Healthcare Enterprise (IHE)](http://www.ihe.net) 
 standards profiling organization has developed a collection of integration profiles which can be
 leveraged for use by healthcare communities for the purposes of document
-sharing.  IHE integration profiles organize and leverage the integration capabilities that can be achieved by coordinated implementation of communication standards, such as DICOM, HL7 W3C and security standards. They provide precise definitions for all stakeholders of how standards can be implemented to meet specific clinical needs.The purpose of this white paper is to provide an overview of the collection of IHE integration profiles
+sharing.  IHE integration profiles organize and leverage the integration capabilities that can be achieved by coordinated implementation of communication standards, such as DICOM, HL7 W3C, FHIR and security standards. They provide precise definitions for all stakeholders of how standards can be implemented to meet specific clinical needs.The purpose of this white paper is to provide an overview of the collection of IHE integration profiles
 which are intended to be used by these communities for exchanging health
 information. This collection of IHE integration profiles includes support for patient
 identification, health document location and retrieval, provider
