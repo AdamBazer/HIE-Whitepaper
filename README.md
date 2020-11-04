@@ -36,14 +36,13 @@ health information sharing.
 
 Effective health information exchange involves a diverse set of
 activities and a broad set of challenges, whether that exchange takes
-place among affiliated or unaffiliated care providers.  The Information Technology Infrastructure (ITI) domain of IHE, first launched in 2003, works to address the implementation of standards-based interoperability solutions to improve information sharing, workflow and patient care. The IT
-Infrastructure (ITI) domain of IHE has addressed many of these
+place among affiliated or unaffiliated care providers.  The Information Technology Infrastructure (ITI) domain of IHE, first launched in 2003, works to address the implementation of standards-based interoperability solutions to improve information sharing, workflow and patient care. The ITI domain has addressed many of these
 challenges by defining a series of integration profiles to address
 specific aspects of exchanging healthcare information. Each integration
-profiles addresses part of the broad set of challenges involved in
-health information exchange. The integration profiles are not designed to
-address governance and policy choices, two factors that significantly affect how an integration
-profile is adapted in any particular community. While this white paper cannot
+profile addresses part of the broad set of challenges involved in
+health information exchange. These integration profiles are not designed to
+address governance and policy choices, two factors that significantly affect the success of how an integration
+profile is adapted by any particular community. While this white paper cannot
 address all such governance and policy issues, it will provide some
 guidance on where governance and policy issues are applicable and offer
 some common approaches.
@@ -63,11 +62,11 @@ Anatomic Pathology, Cardiology, Eye Care, Laboratory, Patient Care
 Coordination, Patient Care Device, Pharmacy, Quality, Research and
 Public Health; Radiation Oncology, and Radiology.
 
-It is important to note that IHE integration profiles focus only on deploying interoperability
-and do not attempt to solve every issue involved in exchanging health
+It is important to note that IHE integration profiles focus only on deploying a standards-based approach to interoperability deployment
+and does not attempt to solve every issue involved in exchanging health
 information. These technical solutions are meant to be plugged into an
 architecture that is designed and executed by the exchange communities
-themselves. IHE integration profiles are developed  to create standards-based community data exchange within divergent architectures each community may to meet their individual needs.
+themselves. IHE integration profiles are developed with a target to create standards-based community data exchange within divergent architectures that each data exchange community may to meet their individual needs.
 
 ## 1.2 Intended Audience
 
