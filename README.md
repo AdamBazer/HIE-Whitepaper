@@ -36,28 +36,20 @@ health information sharing.
 
 Effective health information exchange involves a diverse set of
 activities and a broad set of challenges, whether that exchange takes
-place among affiliated or unaffiliated care providers. The IT
+place among affiliated or unaffiliated care providers.  The IHE IT Infrastructure (ITI) domain of IHE, first launched in 2003, works to address the implementation of standards-based interoperability solutions to improve information sharing, workflow and patient care. The IT
 Infrastructure (ITI) domain of IHE has addressed many of these
 challenges by defining a series of integration profiles to address
 specific aspects of exchanging healthcare information. Each integration
 profiles addresses part of the broad set of challenges involved in
-health information exchange. The profiles, however, do not attempt to
-address governance and policy choices that significantly affect how the
-profile is adapted in any particular community. This white paper cannot
-address all such governance and policy issues but will provide some
+health information exchange. The integration profiles are not designed to
+address governance and policy choices, two factors that significantly affect how an integration
+profile is adapted in any particular community. While this white paper cannot
+address all such governance and policy issues, it will provide some
 guidance on where governance and policy issues are applicable and offer
 some common approaches.
 
-It is very important to note that IHE focuses only on interoperability
-and does not attempt to solve every issue involved in exchanging health
-information. These solutions are meant to be plugged into an
-architecture that is designed and executed by the exchange communities
-themselves. Thus, while each community will generate an architecture
-that meets its individual needs, the use of IHE profiles will lead to
-the creation of standards-based communities.
-
-This white paper will focus on explaining how IHE profiles are used to
-address interoperability aspects of document sharing and how they work
+This white paper will focus on explaining how IHE integration profiles are used to
+address interoperability aspects of document sharing and how the profiles work
 together to solve common document sharing problems. The IHE White Paper
 “[Template for [XDS](http://profiles.ihe.net/ITI/TF/Volume1/ch-10.html) Affinity Domain Deployment
 Planning](https://www.ihe.net/Technical_Framework/upload/IHE_ITI_White_Paper_XDS_Affinity_Domain_Template_TI_2008-12-02.pdf)”,
@@ -70,6 +62,12 @@ clinical use cases, consider the work of the clinical IHE domains:
 Anatomic Pathology, Cardiology, Eye Care, Laboratory, Patient Care
 Coordination, Patient Care Device, Pharmacy, Quality, Research and
 Public Health; Radiation Oncology, and Radiology.
+
+It is important to note that IHE integration profiles focus only on deploying interoperability
+and do not attempt to solve every issue involved in exchanging health
+information. These technical solutions are meant to be plugged into an
+architecture that is designed and executed by the exchange communities
+themselves. IHE integration profiles are developed  to create standards-based community data exchange within divergent architectures each community may to meet their individual needs.
 
 ## 1.2 Intended Audience
 
