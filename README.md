@@ -157,42 +157,40 @@ participating.
 # 2 Principles of IHE for Health Document Sharing
 
 This section describes several principles which are foundational to
-IHE’s approach to health document sharing.
+Integrating the Healthcare Enterprise's approach to health document sharing.
 
 ## 2.1 General IHE principles
 
 The following general IHE principles are applicable to the set of IHE
-profiles used for Document Sharing:
+integration profiles used for Document Sharing:
 
-  - IHE profiles describe the interactions between systems and not the
-    implementation within systems. Interactions between systems are
+  - IHE integration profiles describe the interactions between systems, not the
+    implementation within systems.  The internal implementation of the systems is not
+    prescribed by IHE. Interactions between systems are
     typically described by transactions which are technically specific
     and detailed enough to ensure interoperability among implementing
-    systems. The internal implementation of the systems is not
-    prescribed by IHE. For example, for patient demographic matching IHE
-    specified the format of the query and response but not the algorithm
+    systems.  For example, for patient demographic matching IHE integration profiles
+    specify the format of the query and response, but not the algorithm
     or method used for the demographic matching. This allows freedom for
-    implementations to address scalability, creative functionality,
-    reliability, and other value-add.
+    organizations implementing IHE integration profiles to address scalability, creative functionality,
+    reliability, and other value-add in ways the most appropriate to their particular objectives.
 
-  - IHE profiles are designed to support a wide variety of governance
-    and policies. Because IHE supports adoption of its profiles around
-    the world it is rarely possible to define policies that are
-    applicable in all countries. For this reason, IHE profiles are
-    designed with a variety of governance and policies in mind and are
-    therefore applicable to a wide variety of environments. IHE profiles
-    are designed to be policy neutral and support a broad set of
-    governance; before they can be deployed there are many governance
-    and policy issues that the communities must agree on. Examples of
-    governance and policy issues are things like: roles and
+  - IHE integration profiles are, by design, developed to succeed in light of the wide variance in governance
+    and policy choises organizations that adopt these profiles make in their implementation. Because IHE drives adoption of its integration profiles around
+    the world, it is rarely possible to define policies that could truly be
+    applicable equally in all countries. For this reason, IHE integration profiles are
+    designed with a variety of governance and policies in mind, making them more applicable to a wide variety of environments. This is possible because IHE designs its integration profiles to be policy neutral and able to support a broad set of
+    governance.  This design however, dictates that before communities can deploy IHE integration profiles, they must find consensus around the governance
+    and policy issues that will impact the success for communities in their implementation process. Examples of
+    governance and policy issues communities need to find consensus around include: roles and
     responsibilities, privacy, signature requirements, authorization,
     when to publish, what to publish, administrative roles,
     configuration, service level agreements, clinical pathways,
     long-term availability, etc.
 
-  - IHE assumes there is a general understanding of widely implemented
+  - IHE assumes its integration profile implmentators are starting with a general understanding of widely-implemented
     Information Technology Standards. IHE profiles typically leverage
-    underlying technology like XML, TCP/IP, DNS, Digital Certificates 
+    underlying technologies like XML, TCP/IP, DNS, Digital Certificates 
 	(PKI), etc. without detailed explanations.
 
 ## 2.2 Document Sharing Governance
