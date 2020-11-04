@@ -15,55 +15,43 @@
 **Comments on this whitepaper are invited at any time and can be submitted as either [IHE comment form](https://www.ihe.net/ITI_Public_Comments/) or [GitHub issues](https://github.com/IHE/HIE-Whitepaper/issues/new?template=public-comment-issue-template.md)** Please reference the section that your comment applies to.
 
 # 1 Introduction
-
-The [Integrating the Healthcare Enterprise (IHE)](http://www.ihe.net) standards profiling
-organization has developed a collection of profiles which can be
-leveraged for use by healthcare communities for the purposes of document
-sharing. One of the most significant applications of healthcare
+One of the most significant applications of healthcare
 information technology is the exchange of health information among
 disparate clinical information systems and otherwise unaffiliated care
 providers. Across the world, various communities have developed or are
 developing methods for exchanging health information among healthcare
-providers, patients, and other authorized parties. The purpose of this
-white paper is to provide an overview of the collection of IHE profiles
-which are intended to be used by communities for exchanging health
-information. The collection of profiles includes support for patient
+providers, patients, and other authorized parties.  The [Integrating the Healthcare Enterprise (IHE)](http://www.ihe.net) 
+standards profiling organization has developed a collection of integration profiles which can be
+leveraged for use by healthcare communities for the purposes of document
+sharing.  IHE integration profiles organize and leverage the integration capabilities that can be achieved by coordinated implementation of communication standards, such as DICOM, HL7 W3C, FHIR and security standards. They provide precise definitions for all stakeholders of how standards can be implemented to meet specific clinical needs.The purpose of this white paper is to provide an overview of the collection of IHE integration profiles
+which are intended to be used by these communities for exchanging health
+information. This collection of IHE integration profiles includes support for patient
 identification, health document location and retrieval, provider
 directories, and the protection of privacy and security. This white
-paper will show how various profiles work together to provide a
-standards based, interoperable approach to community and cross-community
+paper outlines how these profiles work together to provide a
+standards-based, interoperable approach to community and cross-community
 health information sharing.
-
-IHE has provided a recorded [YouTube webinar on the topic of the HIE-Whitepaper](https://www.youtube.com/watch?v=3sDgnS71m4o) with a focus on the FHIR support available.
 
 ## 1.1 Scope
 
 Effective health information exchange involves a diverse set of
 activities and a broad set of challenges, whether that exchange takes
-place among affiliated or unaffiliated care providers. The IT
-Infrastructure (ITI) domain of IHE has addressed many of these
+place among affiliated or unaffiliated care providers.  The Information Technology Infrastructure (ITI) domain of IHE, first launched in 2003, works to address the implementation of standards-based interoperability solutions to improve information sharing, workflow and patient care. The ITI domain has addressed many of these
 challenges by defining a series of integration profiles to address
 specific aspects of exchanging healthcare information. Each integration
-profiles addresses part of the broad set of challenges involved in
-health information exchange. The profiles, however, do not attempt to
-address governance and policy choices that significantly affect how the
-profile is adapted in any particular community. This white paper cannot
-address all such governance and policy issues but will provide some
+profile addresses a specific part of the broad set of challenges involved in
+health information exchange. These integration profiles are not designed to
+address governance and policy choices, two factors that significantly affect the success of how an integration
+profile is adapted by any particular community. While this white paper cannot
+address all such governance and policy issues, it will provide some
 guidance on where governance and policy issues are applicable and offer
 some common approaches.
 
-It is very important to note that IHE focuses only on interoperability
-and does not attempt to solve every issue involved in exchanging health
-information. These solutions are meant to be plugged into an
-architecture that is designed and executed by the exchange communities
-themselves. Thus, while each community will generate an architecture
-that meets its individual needs, the use of IHE profiles will lead to
-the creation of standards-based communities.
-
-This white paper will focus on explaining how IHE profiles are used to
-address interoperability aspects of document sharing and how they work
+This white paper will focus on explaining how IHE integration profiles are used to
+address interoperability aspects of document sharing and how the profiles work
 together to solve common document sharing problems. The IHE White Paper
-[Template for XDS Affinity Domain Deployment Planning](https://www.ihe.net/Technical_Framework/upload/IHE_ITI_White_Paper_XDS_Affinity_Domain_Template_TI_2008-12-02.pdf),
+“[Template for [XDS](http://profiles.ihe.net/ITI/TF/Volume1/ch-10.html) Affinity Domain Deployment
+Planning](https://www.ihe.net/Technical_Framework/upload/IHE_ITI_White_Paper_XDS_Affinity_Domain_Template_TI_2008-12-02.pdf)”,
 provides support for policy and deployment planning. The IHE “[Document
 Sharing Metadata
 Handbook](https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Handbook_Metadata.pdf)”,
@@ -73,6 +61,13 @@ clinical use cases, consider the work of the clinical IHE domains:
 Anatomic Pathology, Cardiology, Eye Care, Laboratory, Patient Care
 Coordination, Patient Care Device, Pharmacy, Quality, Research and
 Public Health; Radiation Oncology, and Radiology.
+
+It is important to note that IHE integration profiles focus only on deploying a standards-based approach to interoperability deployment
+and do not attempt to solve every issue involved in exchanging health
+information. These technical solutions are meant to be plugged into an
+architecture that is designed and executed by the exchange communities
+themselves. IHE integration profiles are developed with a target to create standards-based community data exchange within divergent architectures that each healthcare community may to meet their individual needs.
+
 
 ## 1.2 Intended Audience
 
@@ -93,20 +88,19 @@ communities already in production and many more are being planned. The
 size, nature and scope of communities vary widely but can be
 characterized by a number of different aspects.
 
-First, some communities are geographically focused while others are not.
+First, some communities are geographically focused, albeit regionally or nationally.
 What often comes to mind when speaking of a community is a regional
 organization that facilitates information exchange across multiple
 organizations that are relatively close in proximity. Major metropolitan
 areas tend to be the focus of these communities, but often a regional
-community encompasses several rural locales. On the opposite extreme of
-the geographic aspect of communities is the network of United States
+community encompasses several rural locales. An example of nationally-focused communities would the network of United States
 Veterans Hospitals. The VA (Veterans Administration) hospitals are
 spread across the entire map of the US and beyond, yet significant
 efforts have been spent on being able to exchange data among these
-geographically separated care centers.
+geographically-diverse care centers.
 
-A second characteristic by which to categorize communities is the
-organizational structure of the community. In some cases, the community
+A second characteristic by which to categorize health data sharing communities is the
+organizational structure of the community itself. In some cases, the community
 consists of a single hospital and several out-patient clinics that have
 a referral relationship with the hospital. In other cases, a network of
 competing hospitals, laboratories and private clinics may collaborate to
@@ -114,7 +108,7 @@ form a community.
 
 A third means by which to describe communities is the scope of the
 content shared. Some communities have very limited exchange
-functionality. For instance, a community may focus entirely on
+functionality. For example, a community may focus entirely on
 electronic lab result delivery or e-prescribing. Most communities define
 a moderate scope to their exchange activities that might include results
 delivery, electronic referrals, and perhaps some sharing of
@@ -131,17 +125,17 @@ ad-hoc arrangement to push documents from one organization to another.
 National and sub-national jurisdictions have significant effects on the
 organization and operations of a community.
 
-Despite all the variance among communities, each has the same ultimate
+Despite all the variance among communities, each one has the same ultimate
 goal: to increase the authorized exchange of patient health information
 across organizations so that clinicians can make better decisions by being more informed about the longitudinal health history. This ultimate goal provides the reason
 why the community exists, it is their affinity.
 
 Once communities are formed there is a need to exchange health documents
-across the communities as well as within them. IHE uses the concept of
+across the communities as well as within them. Integrating the Healthcare Enterprise uses the concept of
 cross-community to describe a federation of communities which use mostly
-peer-to-peer interactions for the purposes of health document sharing. A
+peer-to-peer interactions for the purposes of health document sharing. This federated architecture apporach allows interoperability and information sharing between semi-autonomous de-centrally organized information technology systems and applications. A
 community may be a single organization, like the USA Veterans
-Administration, a complex community of many organizations, or a more
+Administration, a complex community of many organizations, like Kaiser Permanente, or a more
 simple organization like a single small hospital or facility.
 Cross-community describes an environment where multiple communities, be
 they simple, small, complex or large, interact without any understanding
